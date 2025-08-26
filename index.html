@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <nav
+        class="bg-white border border-[#d3d3d3] drop-shadow-lg fixed top-4 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] lg:w-[80%] z-10 rounded-[50px]">
+        <div
+            class="max-w-screen-xl flex flex-wrap justify-between items-center mx-auto p-4 md:justify-center lg:justify-between">
+            <span class="text-[#545454] text-xl sm:text-2xl font-medium ">
+                <span class="bg-[#A5C422] py-0 px-1 rounded-4xl text-white">H</span>ealth Center
+            </span>
+
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:flex md:w-auto text-[#545454] font-medium" id="navbar-default">
+                <ul class="flex flex-col md:flex-row md:items-center">
+                    <li><a href="#" class="block m-3">Home</a></li>
+                    <li><a href="#" class="block m-3">About Us</a></li>
+                    <li><a href="#" class="block m-3">Doctors</a></li>
+                    <li><a href="#" class="block m-3">News</a></li>
+                    <li><a href="#" class="block m-3">Contact</a></li>
+                    <li>
+                        <button
+                            class="bg-[#A5C422] text-white px-6 py-2 rounded-[10px] hover:bg-[#4267B2] transition duration-300 mt-3 md:mt-0">
+                            Make an appointment
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section
+        class="relative bg-[url('../assets/images/abdulai-sayni-1QcLbPi3S7Y-unsplash.jpg')] bg-cover bg-center h-[90vh]">
+        <div
+            class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center h-full text-white text-center px-5">
+            <h3 class="text-lg sm:text-xl md:text-2xl">LET'S MAKE YOUR LIFE HAPPIER</h3>
+            <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold py-4">Healthy Life</h1>
+            <div class="mt-5">
+                <button
+                    class="bg-[#4267B2] px-6 sm:px-10 py-3 rounded-[5px] cursor-pointer hover:translate-y-[-5px] hover:bg-white hover:text-black transition duration-500">
+                    Meet Our Doctors
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-[#F5F5F5] py-10">
+        <div
+            class="w-[90%] lg:w-[80%] m-auto flex flex-col-reverse lg:flex-row flex-wrap items-center justify-between gap-10">
+
+            <div class="w-full lg:w-[55%]">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-medium text-[#545454] leading-tight">
+                    Welcome to Your <span class="text-white bg-[#545454] px-1 rounded-[5px]">H</span>ealth Center
+                </h2>
+
+                <p class="py-5 text-[#828282] leading-[30px]">
+                    Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae
+                    velit volutpat venenatis...
+                </p>
+
+                <p class="pt-1 text-[#828282] leading-[30px]">
+                    Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae
+                    velit volutpat venenatis...
+                </p>
+
+                <div class="flex gap-4 items-center mt-5">
+                    <div class="w-[60px] h-[60px] rounded-full overflow-hidden">
+                        <img src="assets/images/author-image.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl sm:text-2xl text-[#545454]">Dr. Neil Jackson</h3>
+                        <h6 class="text-[#828282]">General Principal</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-[40%] flex justify-center">
+                <img class="max-w-[80%] lg:max-w-full"
+                    src="assets/images/tmvmnt-media-rm7rZYdl3rY-unsplash-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="w-[90%] lg:w-[80%] m-auto py-10">
+        <h2 class="text-2xl sm:text-4xl font-bold mb-10 text-center">Our Doctors</h2>
+
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <!-- Doctor Card -->
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/team-image1.jpg" alt="" class="w-full h-[700px] object-cover rounded-lg">
+                <div class="mt-4 text-left">
+                    <div class="border-b border-b-[#c5c5c5] pb-2">
+                        <h3 class="text-xl font-semibold text-[#545454] ">Nate Baston</h3>
+                        <h6 class="text-[#828282]">General Principal</h6>
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="text-[#828282]">010-020-0120</h6>
+                        <h6 class="text-[#828282]">general@company.com</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Card -->
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/team-image2.jpg" alt="" class="w-full h-[700px] object-cover rounded-lg">
+                <div class="mt-4 text-left">
+                    <div class="border-b border-b-[#c5c5c5] pb-2">
+                        <h3 class="text-xl font-semibold text-[#545454] ">Nate Baston</h3>
+                        <h6 class="text-[#828282]">General Principal</h6>
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="text-[#828282]">010-020-0120</h6>
+                        <h6 class="text-[#828282]">general@company.com</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Card -->
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/team-image3.jpg" alt="" class="w-full h-[700px] object-cover rounded-lg">
+                <div class="mt-4 text-left">
+                    <div class="border-b border-b-[#c5c5c5] pb-2">
+                        <h3 class="text-xl font-semibold text-[#545454] ">Nate Baston</h3>
+                        <h6 class="text-[#828282]">General Principal</h6>
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="text-[#828282]">010-020-0120</h6>
+                        <h6 class="text-[#828282]">general@company.com</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 flex justify-center">
+            <button
+                class="bg-[#4267B2] text-white px-6 sm:px-10 py-3 rounded-[5px] cursor-pointer hover:translate-y-[-5px] hover:bg-white hover:text-black hover:border hover:border-[#6e6e6e] transition duration-500">
+                See All Doctors
+            </button>
+        </div>
+    </section>
+
+
+    <section class="w-[100%] lg:w-[80%] m-auto py-10">
+        <h2 class="text-2xl sm:text-4xl font-bold mb-10 text-center">Latest News</h2>
+
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/news-image1.jpg" alt="" class="w-full object-cover rounded-lg">
+                <div class="mt-4 text-left p-4">
+                    <div class="border-b border-b-[#c5c5c5] pb-2">
+                        <h6 class="pb-3 text-[#828282]">March 08, 2018</h6>
+                        <h3 class="text-2xl font-bold text-[#545454] ">About Amazing Technology</h3>
+                        <h6 class="text-[#828282] py-4">Maecenas risus neque, placerat volutpat tempor ut, vehicula et
+                            felis.
+                        </h6>
+                    </div>
+
+                    <div class="flex gap-4 items-center mt-5">
+                        <div class="w-[60px] h-[60px] rounded-full overflow-hidden">
+                            <img src="assets/images/author-image.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-xl text-[#545454]">Jeremie Carlson
+                            </h3>
+                            <h6 class="text-[#828282]">CEO / Founder</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/news-image2.jpg" alt="" class="w-full object-cover rounded-lg">
+                <div class="mt-4 text-left p-4">
+                    <div class="border-b border-b-[#c5c5c5] pb-2">
+                        <h6 class="pb-3 text-[#828282]">March 08, 2018</h6>
+                        <h3 class="text-2xl font-bold text-[#545454] ">New Healing Process</h3>
+                        <h6 class="text-[#828282] py-4">Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et
+                            est
+                            ligula.
+
+                        </h6>
+                    </div>
+                    <div class="flex gap-4 items-center mt-5">
+                        <div class="w-[60px] h-[60px] rounded-full overflow-hidden">
+                            <img src="assets/images/author-image.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-xl text-[#545454]">Jason Stewart
+
+                            </h3>
+                            <h6 class="text-[#828282]">General Director
+
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/news-image3.jpg" alt="" class="w-full object-cover rounded-lg">
+                <div class="mt-4 text-left p-4">
+                    <div class="border-b border-b-[#c5c5c5] pb-2">
+                        <h6 class="pb-3 text-[#828282]">March 08, 2018</h6>
+                        <h3 class="text-2xl font-bold text-[#545454] ">Review Annual Medical Research</h3>
+                        <h6 class="text-[#828282] py-4">Vivamus non nulla semper diam cursus maximus. Pellentesque
+                            dignissim.
+                        </h6>
+                    </div>
+                    <div class="flex gap-4 items-center mt-5">
+                        <div class="w-[60px] h-[60px] rounded-full overflow-hidden">
+                            <img src="assets/images/author-image.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-xl text-[#545454]">Andrio Abero
+
+                            </h3>
+                            <h6 class="text-[#828282]">Online Advertising
+
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.229884315915!2d31.23571181511082!3d30.04441998187861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c97fe1a3c5%3A0x6cfc6b3f7e38a1a5!2sTahrir%20Square!5e0!3m2!1sen!2seg!4v1692987982674!5m2!1sen!2seg"
+            width="600" height="450" class="w-full" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.1/flowbite.min.js"></script>
+
+</body>
+
+</html>
