@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>About Us - Health Center</title>
+</head>
+
+<body class="scroll-smooth">
+
+    <!-- Nav -->
+    <nav
+        class="bg-white border border-[#d3d3d3] drop-shadow-lg fixed top-4 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] lg:w-[80%] z-10 rounded-[50px]">
+        <div
+            class="max-w-screen-xl flex flex-wrap justify-between items-center mx-auto p-4 md:justify-center lg:justify-between">
+            <span class="text-[#545454] text-xl sm:text-2xl font-medium flex items-center gap-2">
+                <span class="bg-[#A5C422] w-10 h-10 flex items-center justify-center rounded-xl text-white font-bold">
+                    H
+                </span>
+                ealth Center
+            </span>
+
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:flex md:w-auto text-[#545454] font-medium" id="navbar-default">
+                <ul class="flex flex-col md:flex-row md:items-center">
+                    <li><a href="#" class="block m-3">Home</a></li>
+                    <li><a href="about.html" class="block m-3">About Us</a></li>
+                    <li><a href="doctors.html" class="block m-3">Doctors</a></li>
+                    <li><a href="#" class="block m-3">News</a></li>
+                    <li><a href="#" class="block m-3">Contact</a></li>
+                    <li>
+                        <button
+                            class="bg-[#A5C422] text-white px-6 py-2 rounded-[10px] hover:bg-[#4267B2] transition duration-300 mt-3 md:mt-0">
+                            Make an appointment
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav -->
+    <!-- Hero -->
+    <section
+        class="relative bg-[url('../assets/images/abdulai-sayni-1QcLbPi3S7Y-unsplash.jpg')] bg-cover bg-center h-[90vh]">
+        <div
+            class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center h-full text-white text-center px-5">
+            <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold">About Us</h1>
+            <p class="mt-4 text-lg max-w-2xl">
+                Learn more about our vision, mission, and commitment to providing the best healthcare.
+            </p>
+        </div>
+    </section>
+    <!-- Hero -->
+
+    <!-- Mission & Vision -->
+    <section class="w-[90%] lg:w-[80%] m-auto py-16 grid md:grid-cols-2 gap-12">
+        <div class="mb-10 mt-10">
+            <h2 class="text-3xl font-bold text-[#545454] mb-4">Our Mission</h2>
+            <p class="text-[#828282] leading-[30px]">
+                Our mission is to improve the health and well-being of our community by providing high-quality,
+                patient-centered healthcare services. We are dedicated to offering accessible, compassionate, and
+                innovative
+                medical solutions for everyone.
+            </p>
+        </div>
+        <div class="mb-10">
+            <h2 class="text-3xl font-bold text-[#545454] mb-4">Our Vision</h2>
+            <p class="text-[#828282] leading-[30px]">
+                To be recognized as a trusted leader in healthcare, offering advanced treatments and exceptional patient
+                experiences while contributing to healthier and happier communities.
+            </p>
+        </div>
+    </section>
+    <!-- Mission & Vision -->
+
+    <!-- Why Choose Us -->
+    <section class="bg-[#F5F5F5]">
+        <div class="w-[90%] lg:w-[80%] m-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#545454] mb-10 ">Why Choose Us?</h2>
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#545454] mb-3">Experienced Doctors</h3>
+                    <p class="text-[#828282]">Our team consists of highly skilled and specialized doctors dedicated to
+                        your
+                        health.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#545454] mb-3">Advanced Facilities</h3>
+                    <p class="text-[#828282]">We use the latest medical technology and modern facilities to ensure
+                        top-quality
+                        care.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#545454] mb-3">Patient-Centered Care</h3>
+                    <p class="text-[#828282]">We listen to our patients and provide personalized treatments tailored to
+                        their
+                        needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us -->
+
+    <!-- Our Team -->
+    <section class="w-[90%] lg:w-[80%] m-auto py-16 mt-10">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-[#545454] mb-10">Meet Our Team</h2>
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/team-image1.jpg" alt="" class="w-full h-[400px] object-cover rounded-lg">
+                <h3 class="text-xl font-semibold text-[#545454] mt-4">Dr. Sarah Johnson</h3>
+                <p class="text-[#828282]">Cardiologist</p>
+            </div>
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/team-image2.jpg" alt="" class="w-full h-[400px] object-cover rounded-lg">
+                <h3 class="text-xl font-semibold text-[#545454] mt-4">Dr. Michael Smith</h3>
+                <p class="text-[#828282]">Pediatrician</p>
+            </div>
+            <div class="text-center bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <img src="assets/images/team-image3.jpg" alt="" class="w-full h-[400px] object-cover rounded-lg">
+                <h3 class="text-xl font-semibold text-[#545454] mt-4">Dr. Emily Davis</h3>
+                <p class="text-[#828282]">Dermatologist</p>
+            </div>
+        </div>
+
+        <a href="doctors.html" class="mt-10 flex justify-center">
+            <button
+                class="bg-[#4267B2] text-white px-6 sm:px-10 py-3 rounded-[5px] cursor-pointer hover:translate-y-[-5px] hover:bg-white hover:text-black hover:border hover:border-[#6e6e6e] transition duration-500">
+                See All Doctors
+            </button>
+        </a>
+
+    </section>
+    <!-- Our Team -->
+
+    <!-- Footer -->
+    <section class="text-white mt-5 mb-5 ">
+        <div class="py-10 w-[80%] m-auto max-w-screen-xl ">
+            <a href="#top"
+                class="scroll-smooth text-[#545454] text-xl sm:text-2xl font-medium flex justify-center items-center gap-2 pb-1 cursor-pointer">
+                <span class="bg-[#A5C422] w-10 h-10 flex items-center justify-center rounded-xl text-white font-bold">
+                    H
+                </span>
+                ealth Center
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+
+</body>
+
+</html>
